@@ -27,7 +27,7 @@ public class GameController {
     public void runGame() {
 
         responseController.setCommandMap();
-        System.out.print("Welcome to ZooTropolis, what's your name?\n> ");
+        System.out.print("Welcome to ZooTropolis, what's your name??\n> ");
         String playerName = InputController.readString();
         player.setName(playerName);
         player.setLifePoints(10);
